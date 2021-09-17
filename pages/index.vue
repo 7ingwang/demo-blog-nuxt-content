@@ -2,8 +2,8 @@
   <div class="m-8">
     <TheHeader />
 
-    <h1 class="font-bold text-4xl">Blog Posts</h1>
-    <ul class="flex flex-wrap">
+    <h1 class="container mx-auto font-bold text-4xl">Blog Posts</h1>
+    <ul class="container mx-auto flex flex-wrap">
       <li
         v-for="article of articles"
         :key="article.slug"
